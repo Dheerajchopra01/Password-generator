@@ -16,11 +16,6 @@
      margin-bottom: 10px;
     font-size: 40px;
     color: #FFFFFF;
-    /* font-family: 'karla'; */
-    /* font-weight: 800; */
-    /* line-height: 40px; */
-    /* letter-spacing: -0.025em; */
-
 }
 
 .project-title{
@@ -55,11 +50,16 @@ hr{
     border: 1px solid #2F3E53;
 }
 
-.btn-randompasswords{
+.container-random-password{
+    display: flex;
+    justify-content: space-between;
+}
+
+.random-passwords{
     width: 211px;
-    height: 40px;
-    padding: 8px 30px;
-    margin-right: 12px;
+    padding: 10px 0px;
+    display: inline;
+    text-align: center;
 
     background-color:#273549;
     color:#55F991 ;

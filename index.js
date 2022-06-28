@@ -19,12 +19,12 @@ function passwordSuggestions(){
 //10 digit password
 function generatePassword(){
 
-    let passwordSuggestBtn1 = document.getElementById("password-suggest-btn1");
-    passwordSuggestBtn1.textContent = passwordSuggestions();
+    let passwordSuggestion1 = document.getElementById("password-suggestion1");
+    passwordSuggestion1.textContent = passwordSuggestions();
     passwordSuggestion="";
 
-    let passwordSuggestBtn2 = document.getElementById("password-suggest-btn2");
-    passwordSuggestBtn2.textContent = passwordSuggestions();
+    let passwordSuggestion2 = document.getElementById("password-suggestion2");
+    passwordSuggestion2.textContent = passwordSuggestions();
     passwordSuggestion="";
 
 
